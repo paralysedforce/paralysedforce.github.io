@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Josefin Sans";
+    src: url('./fonts/josefin_sans.tff') format('truetype');
+}
+
+* {
+    font-family: 'Josefin Sans';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    height: 1000px;
+}
+
+body {
+    margin: 0;
+}
+
+/* Page 1: Splash  */
+#splash-details {
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+}
+
+#splash-statement {
+    max-width: 20vw;
+}
+
+#name {
+    font-size: 90px;
+}
+
+#vyas {
+    color: black;
+}
+#alwar {
+    color: white;
+}
+
+.triangle-top-left {
+    position: absolute;
+    top: 0;
+    border-top: 50vw solid #c1504c;
+    border-right: 100vw solid transparent;
+    height: 0;
+    width: 0;
+}
+
+.parallax {
+    background-image: url("./imgs/dog.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page {
+    height: 50vw;
+}
+
+.subpage {
+    height: 50vw;
+}
+
+.padded {
+}
